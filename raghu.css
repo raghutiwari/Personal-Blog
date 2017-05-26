@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Barrio|Josefin+Sans|Montserrat+Subrayada');
+body{
+	background-color: black;
+	font-family: 'Amatic SC', cursive;
+	font-size: 180%;
+}
+h1{
+	font-family: 'Montserrat Subrayada', sans-serif;
+	color: white;
+}
+	h2{
+	font-family: 'Barrio', cursive;
+}
+nav{
+	background-color: #FF4500;
+	margin-left:920px;
+	position: fixed;
+	margin:           10px 10px 0px 920px;
+
+}
+nav ul {
+	 margin:           0px;
+  padding:          5px 0px 5px 0px;
+	text-decoration: none;
+ 
+}
+nav ul li{
+	list-style-type: none;
+	display: inline;
+	padding:          5px 10px 5px 10px;
+	text-decoration: none;
+	
+	transition-duration: 0.4s;
+}
+nav ul li:hover{
+	background-color: #F68b1f;
+}
+
+#name, #home,#portfolio, #contact{
+	text-align: center;
+}
+#rag{
+	border-radius: 50%;
+	float:right;	
+	margin-right: 170px;
+
+}
+#ab{
+	width: 700px;
+	margin-bottom:120px;
+	margin-top: 0px;
+	margin-left:120px;
+	padding: 80px;
+}
+#aboutsec{
+	margin-top:0px;
+	width:1250px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: black;
+}
+#git, #star, #udhaar{
+
+	margin-left:80px;
+	border: thick solid black;
+}
+#udhaar{
+	margin-top: 50px;
+	margin-left:380px;
+	border: thick solid black;
+}
+#star{
+	margin-right: 20px;
+}
+#abbb{
+	background-color: #F17022;
+}
+#port{
+	background-color: #FF6347;
+	margin:0px;
+	padding-bottom: 40px;
+}
+#con{
+	background-color: #FF7F50;
+}
+#foo{
+	background-color: #FF8C00;
+}
+footer{
+	text-align: center;
+}
+#git:hover, #star:hover, #udhaar:hover{
+	box-shadow: 10px 10px 5px #fff;
+}
+#but {
+text-align: center;
+}
+.button {
+    background-color: #FF7F50; /* Green */
+    border: thin solid black;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    border-radius: 12px;
+    color: black;
+    width: 150px;
+}
+.button2 {
+    background-color: #FF7F50; /* Green */
+    border: thin solid black;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    border-radius: 12px;
+    color: black;
+    width: 150px;
+}
+.button2:hover{
+	background-color: rgb(120,169,241);
+}
+.button:hover{
+	background-color: rgb(80,101,180);
+}
+#home{
+	margin-bottom: 0px;
+}
+#aboutsec{
+	display: table;
+}
+#row{
+	display: table-row;
+}
+#abbb{
+	display: table-cell;
+}
+#port{
+	display: table-cell;
+}
+#con{
+	display: table-cell;
+}
+#foo{
+	display: table-cell;
+}
+#conpa{
+	padding-left: 70px;
+	padding-right: 70px;
+}
+#home{
+	transition-duration: 0.7s;
+}
+#portfolio{
+	transition-duration: 0.7s;
+}
+#hlink{
+	transition-duration: 0.7s;
+}
+a:visited, a:hover, a{
+	color: black;
+}
+/*#table{
+	display: table;
+	border-spacing: 10px;
+}
+.tableRow{
+	display: table-row;
+}
+.col{
+	display: table-cell;
+	vertical-align: center;
+}
+p.col{
+	margin-top:0px;
+}*/
